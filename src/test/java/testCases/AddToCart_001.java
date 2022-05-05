@@ -12,7 +12,7 @@ import pageClasses.TshirtsPage;
 
 public class AddToCart_001 extends BaseClass {
 	
-	@Test(priority = 1 )
+	@Test(priority = 1, description = "Verify tshirts added to cart")
 	public void verifyAddCrt() throws InterruptedException {
 		
 		HomePage hp = new HomePage(driver);
@@ -49,7 +49,7 @@ public class AddToCart_001 extends BaseClass {
 		Assert.assertEquals(loginPage_actualtitle, loginPage_expectedtitle);
 	}
 	
-	@Test(priority = 2, dependsOnMethods = { "verifyAddCrt" })
+	@Test(priority = 2, dependsOnMethods = { "verifyAddCrt" }, description = "Verify successful checkout")
 	public void verifyChkoutSuccess() throws InterruptedException {
 
 		LoginMyStorePage lp = new LoginMyStorePage(driver);

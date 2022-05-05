@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Regression Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/2/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/3/1</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 03 21:47:56 EDT 2022</td>
+<td>Started on:</td><td>Wed May 04 22:10:26 EDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>47 seconds (47635 ms)</td>
+<tr><td>Total time:</td><td>79 seconds (79978 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,52 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.AddToCart_002.addSmrDrs()'><b>addSmrDrs</b><br>Test class: testCases.AddToCart_002<br>Test method: Verify if summer dress is added</td>
+<td><div><pre>java.lang.AssertionError: expected [Your shopping cart contains: 3 Products] but found [Your shopping cart contains: 5 Products]
+	at testCases.AddToCart_002.addSmrDrs(AddToCart_002.java:68)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1617174216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1617174216'><pre>java.lang.AssertionError: expected [Your shopping cart contains: 3 Products] but found [Your shopping cart contains: 5 Products]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at testCases.AddToCart_002.addSmrDrs(AddToCart_002.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>testCases.AddToCart_002@77e4c80f</td></tr>
+<tr>
 <td title='testCases.ChangePassword_001.navigateToIdentityPage()'><b>navigateToIdentityPage</b><br>Test class: testCases.ChangePassword_001</td>
 <td><div><pre>java.lang.AssertionError: expected [My account - My Store] but found [Login - My Store]
 	at testCases.ChangePassword_001.navigateToIdentityPage(ChangePassword_001.java:28)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1751403001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1751403001'><pre>java.lang.AssertionError: expected [My account - My Store] but found [Login - My Store]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace334593716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace334593716'><pre>java.lang.AssertionError: expected [My account - My Store] but found [Login - My Store]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
@@ -113,21 +154,61 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>2</td>
-<td>testCases.ChangePassword_001@564718df</td></tr>
+<td>3</td>
+<td>testCases.ChangePassword_001@4450d156</td></tr>
 <tr>
-<td title='testCases.AddToCart_001.verifyAddCrt()'><b>verifyAddCrt</b><br>Test class: testCases.AddToCart_001</td>
-<td><div><pre>java.lang.AssertionError: expected [Order - My Store] but found [Login - My Store]
-	at testCases.AddToCart_001.verifyAddCrt(AddToCart_001.java:58)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1217312754", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1217312754'><pre>java.lang.AssertionError: expected [Order - My Store] but found [Login - My Store]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at testCases.AddToCart_001.verifyAddCrt(AddToCart_001.java:58)
+<td title='testCases.AddToCart_001.verifyChkoutSuccess()'><b>verifyChkoutSuccess</b><br>Test class: testCases.AddToCart_001</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}
+  (Session info: chrome=101.0.4951.54)
+  (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;TABLET-94I7MRL4&apos;, ip: &apos;192.168.2.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55396}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir12044_625018404}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f230d719bae3bb07220429ab244be7f0
+*** Element info: {Using=id, value=email}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at pageClasses.LoginMyStorePage.enterSigninEmail(LoginMyStorePage.java:36)
+	at testCases.AddToCart_001.verifyChkoutSuccess(AddToCart_001.java:56)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace565881091", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace565881091'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}
+  (Session info: chrome=101.0.4951.54)
+  (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;TABLET-94I7MRL4&apos;, ip: &apos;192.168.2.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55396}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir12044_625018404}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f230d719bae3bb07220429ab244be7f0
+*** Element info: {Using=id, value=email}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at pageClasses.LoginMyStorePage.enterSigninEmail(LoginMyStorePage.java:36)
+	at testCases.AddToCart_001.verifyChkoutSuccess(AddToCart_001.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -154,8 +235,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>11</td>
-<td>testCases.AddToCart_001@18a70f16</td></tr>
+<td>30</td>
+<td>testCases.AddToCart_001@351d0846</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -168,17 +249,17 @@ function toggleAllBoxes() {
 <td title='testCases.AddToCart_002.addCasualDrs()'><b>addCasualDrs</b><br>Test class: testCases.AddToCart_002<br>Test method: Verify if printed dress is added</td>
 <td></td>
 <td>9</td>
-<td>testCases.AddToCart_002@62e136d3</td></tr>
+<td>testCases.AddToCart_002@77e4c80f</td></tr>
 <tr>
-<td title='testCases.AddToCart_002.addSmrDrs()'><b>addSmrDrs</b><br>Test class: testCases.AddToCart_002<br>Test method: Verify if summer dress is added</td>
+<td title='testCases.AddToCart_001.verifyAddCrt()'><b>verifyAddCrt</b><br>Test class: testCases.AddToCart_001</td>
 <td></td>
-<td>12</td>
-<td>testCases.AddToCart_002@62e136d3</td></tr>
+<td>10</td>
+<td>testCases.AddToCart_001@351d0846</td></tr>
 <tr>
 <td title='testCases.ContactUs_001.verifyContactPage()'><b>verifyContactPage</b><br>Test class: testCases.ContactUs_001</td>
 <td></td>
-<td>9</td>
-<td>testCases.ContactUs_001@2b4a2ec7</td></tr>
+<td>10</td>
+<td>testCases.ContactUs_001@58134517</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -189,9 +270,9 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testCases.ChangePassword_001.verifyIdentity()'><b>verifyIdentity</b><br>Test class: testCases.ChangePassword_001</td>
-<td><div><pre>java.lang.Throwable: Method ChangePassword_001.verifyIdentity()[pri:2, instance:testCases.ChangePassword_001@564718df] depends on not successfully finished methods
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1618984457", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1618984457'><pre>java.lang.Throwable: Method ChangePassword_001.verifyIdentity()[pri:2, instance:testCases.ChangePassword_001@564718df] depends on not successfully finished methods
+<td><div><pre>java.lang.Throwable: Method ChangePassword_001.verifyIdentity()[pri:2, instance:testCases.ChangePassword_001@4450d156] depends on not successfully finished methods
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1756819670", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1756819670'><pre>java.lang.Throwable: Method ChangePassword_001.verifyIdentity()[pri:2, instance:testCases.ChangePassword_001@4450d156] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)

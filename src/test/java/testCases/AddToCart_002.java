@@ -63,7 +63,6 @@ public class AddToCart_002 extends BaseClass {
 		psp.clickShopngCrt();
 
 		OrderMyStorePage op = new OrderMyStorePage(driver);
-		//op.deletePdt();;
 		String actualSummary = op.getPrdtQnty();
 		String expectedSummary = "Your shopping cart contains: 3 Products";
 		Assert.assertEquals(actualSummary, expectedSummary);

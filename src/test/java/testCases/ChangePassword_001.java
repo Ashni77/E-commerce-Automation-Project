@@ -11,7 +11,7 @@ import pageClasses.MyAccountMyStorePage;
 
 public class ChangePassword_001 extends BaseClass {
 	
-	@Test(priority =1)
+	@Test(priority =1, description = "Verify successful navigation to identity page")
 	public void navigateToIdentityPage() throws InterruptedException {
 		
 		HomePage hp = new HomePage(driver);
@@ -33,8 +33,8 @@ public class ChangePassword_001 extends BaseClass {
 		Assert.assertEquals(actualTitle_IdentityPage, expectedTitle_IdentityPage);
 		}
 	
-	@Test(priority = 2 , dependsOnMethods = { "navigateToIdentityPage" })
-	public void verifyIdentity() throws InterruptedException {
+	@Test(priority = 2 , dependsOnMethods = { "navigateToIdentityPage" }, description = "Verify password changed successfully")
+	public void verifyChangePwd() throws InterruptedException {
 		
 IdentityMyStorePage ip = new IdentityMyStorePage(driver);
 		

@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="base.CustomListeners"/>
+  </listeners>
+  <test name="Regression Test(failed)">
     <classes>
+      <class name="testCases.AddToCart_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addSmrDrs"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCases.AddToCart_002 -->
+      <class name="testCases.ChangePassword_001">
+        <methods>
+          <include name="verifyIdentity"/>
+          <include name="navigateToIdentityPage"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCases.ChangePassword_001 -->
       <class name="testCases.AddToCart_001">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyChkoutSuccess"/>
           <include name="verifyAddCrt"/>
           <include name="init"/>
         </methods>
       </class> <!-- testCases.AddToCart_001 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

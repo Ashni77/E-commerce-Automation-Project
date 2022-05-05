@@ -83,7 +83,7 @@
  </build>
 </profile>	
 <profile>
-<id>smoke</id>
+<id>smoketest</id>
   <build>
 		<plugins>
 			<plugin>

@@ -8,7 +8,7 @@ import pageClasses.HomePage;
 
 public class ContactUs_001 extends BaseClass {
 	
-	@Test
+	@Test(description = "Verify functionality of contact us page")
 	public void verifyContactPage() throws InterruptedException {
 		
 		HomePage hp = new HomePage(driver);

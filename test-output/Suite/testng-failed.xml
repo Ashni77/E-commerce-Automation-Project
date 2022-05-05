@@ -4,17 +4,31 @@
   <listeners>
     <listener class-name="base.CustomListeners"/>
   </listeners>
-  <test name="Smoke Test(failed)">
+  <test name="Regression Test(failed)">
     <classes>
-      <class name="datadrivenTC.Register_001">
+      <class name="testCases.AddToCart_002">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyRegister"/>
-          <include name="CreateAccount"/>
-          <include name="verifyAccountRegisteration"/>
+          <include name="addSmrDrs"/>
           <include name="init"/>
         </methods>
-      </class> <!-- datadrivenTC.Register_001 -->
+      </class> <!-- testCases.AddToCart_002 -->
+      <class name="testCases.ChangePassword_001">
+        <methods>
+          <include name="verifyIdentity"/>
+          <include name="navigateToIdentityPage"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCases.ChangePassword_001 -->
+      <class name="testCases.AddToCart_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyChkoutSuccess"/>
+          <include name="verifyAddCrt"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCases.AddToCart_001 -->
     </classes>
-  </test> <!-- Smoke Test(failed) -->
+  </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
