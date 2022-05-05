@@ -24,7 +24,7 @@ public class PrintedDressMyStorePage extends BasePage {
 	@FindBy(xpath = "//select[@id='group_1']")
 	WebElement dressSize_drpdwn;
 	
-	@FindBy(xpath = "//button[@name = 'Submit']")
+	@FindBy(xpath = "//body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/form[1]/div[1]/div[3]/div[1]/p[1]/button[1]")
 	WebElement prntdDrsAtc;
 	
 	@FindBy(xpath = "//span[@title = 'Continue shopping']")
