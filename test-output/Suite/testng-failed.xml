@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="base.CustomListeners"/>
+  </listeners>
+  <test name="Smoke Test(failed)">
+    <classes>
+      <class name="datadrivenTC.Register_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyRegister"/>
+          <include name="CreateAccount"/>
+          <include name="verifyAccountRegisteration"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- datadrivenTC.Register_001 -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

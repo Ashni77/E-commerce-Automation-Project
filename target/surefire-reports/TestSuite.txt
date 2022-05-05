@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 66.855 s <<< FAILURE! - in TestSuite
+testCases.ChangePassword_001.navigateToIdentityPage  Time elapsed: 25.678 s  <<< FAILURE!
+java.lang.AssertionError: expected [My account - My Store] but found [Login - My Store]
+	at testCases.ChangePassword_001.navigateToIdentityPage(ChangePassword_001.java:28)
+
+testCases.AddToCart_001.verifyAddCrt  Time elapsed: 0.471 s  <<< FAILURE!
+java.lang.AssertionError: expected [T-shirts - My Store] but found [508 Resource Limit Is Reached]
+	at testCases.AddToCart_001.verifyAddCrt(AddToCart_001.java:24)
+
+testCases.AddToCart_002.addCasualDrs  Time elapsed: 8.696 s  <<< FAILURE!
+java.lang.NullPointerException
+	at testCases.AddToCart_002.addCasualDrs(AddToCart_002.java:20)
+
+testCases.AddToCart_002.addSmrDrs  Time elapsed: 0.026 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.54)
+  (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'TABLET-94I7MRL4', ip: '192.168.2.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50206}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir5392_1950196352}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: d581a89a374cb47c5a7e2d31db8124de
+*** Element info: {Using=xpath, value=//a[@title='Women' and @class = 'sf-with-ul']}
+	at testCases.AddToCart_002.addSmrDrs(AddToCart_002.java:47)
+
