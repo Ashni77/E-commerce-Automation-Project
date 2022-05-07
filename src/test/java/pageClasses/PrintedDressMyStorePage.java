@@ -38,7 +38,7 @@ public class PrintedDressMyStorePage extends BasePage {
 	public void clickAddToCrt() throws InterruptedException {
 		jse.executeScript("window.scrollBy(0,300);");
 		prntdDrsAtc.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 	
 	public void handleproductwindow() throws InterruptedException {
@@ -49,6 +49,6 @@ public class PrintedDressMyStorePage extends BasePage {
 		driver.switchTo().window(tabs.get(0));
 		new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOf(continueShopng));
 		continueShopng.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 }

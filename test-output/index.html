@@ -126,7 +126,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.ChangePassword_001" hash-for-method="verifyIdentity">verifyIdentity</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.ChangePassword_001" hash-for-method="verifyChangePwd">verifyChangePwd</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -201,6 +201,8 @@
 	at testCases.ChangePassword_001.navigateToIdentityPage(ChangePassword_001.java:28)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
+                  <em>
+(Verify successful navigation to identity page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,13 +221,13 @@
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}
   (Session info: chrome=101.0.4951.54)
   (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.05 seconds
+Command duration or timeout: 30.07 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;TABLET-94I7MRL4&apos;, ip: &apos;192.168.2.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55396}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir12044_625018404}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: f230d719bae3bb07220429ab244be7f0
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62165}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir2304_997987500}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: e6c5a3b912b1c22522c357d22f4e5f0f
 *** Element info: {Using=id, value=email}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
@@ -241,6 +243,8 @@ Session ID: f230d719bae3bb07220429ab244be7f0
 	at testCases.AddToCart_001.verifyChkoutSuccess(AddToCart_001.java:56)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
+                  <em>
+(Verify successful checkout)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,12 +257,14 @@ Session ID: f230d719bae3bb07220429ab244be7f0
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyIdentity">
-                  </a> <!-- verifyIdentity -->
-                  <span class="method-name">verifyIdentity</span>
-                  <div class="stack-trace">java.lang.Throwable: Method ChangePassword_001.verifyIdentity()[pri:2, instance:testCases.ChangePassword_001@4450d156] depends on not successfully finished methods
+                  <a name="verifyChangePwd">
+                  </a> <!-- verifyChangePwd -->
+                  <span class="method-name">verifyChangePwd</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ChangePassword_001.verifyChangePwd()[pri:2, instance:testCases.ChangePassword_001@4450d156] depends on not successfully finished methods
 ... Removed 18 stack frames
 </div> <!-- stack-trace -->
+                  <em>
+(Verify password changed successfully)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -291,6 +297,8 @@ Session ID: f230d719bae3bb07220429ab244be7f0
                   <a name="verifyContactPage">
                   </a> <!-- verifyContactPage -->
                   <span class="method-name">verifyContactPage</span>
+                  <em>
+(Verify functionality of contact us page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -306,6 +314,8 @@ Session ID: f230d719bae3bb07220429ab244be7f0
                   <a name="verifyAddCrt">
                   </a> <!-- verifyAddCrt -->
                   <span class="method-name">verifyAddCrt</span>
+                  <em>
+(Verify tshirts added to cart)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -372,29 +382,29 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyChkoutSuccess')
 data.setCell(0, 2, 'testCases.AddToCart_001')
-data.setCell(0, 3, 30060);
+data.setCell(0, 3, 30074);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addSmrDrs')
 data.setCell(1, 2, 'testCases.AddToCart_002')
-data.setCell(1, 3, 13128);
+data.setCell(1, 3, 13589);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyAddCrt')
 data.setCell(2, 2, 'testCases.AddToCart_001')
-data.setCell(2, 3, 10529);
+data.setCell(2, 3, 9717);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyContactPage')
 data.setCell(3, 2, 'testCases.ContactUs_001')
-data.setCell(3, 3, 10348);
+data.setCell(3, 3, 8688);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'addCasualDrs')
 data.setCell(4, 2, 'testCases.AddToCart_002')
-data.setCell(4, 3, 9125);
+data.setCell(4, 3, 7207);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'navigateToIdentityPage')
 data.setCell(5, 2, 'testCases.ChangePassword_001')
-data.setCell(5, 3, 3748);
+data.setCell(5, 3, 2266);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyIdentity')
+data.setCell(6, 1, 'verifyChangePwd')
 data.setCell(6, 2, 'testCases.ChangePassword_001')
 data.setCell(6, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
@@ -461,7 +471,7 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">verifyContactPage</span>
-                <span class="method-start">4759 ms</span>
+                <span class="method-start">3878 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -470,21 +480,21 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">navigateToIdentityPage</span>
-                <span class="method-start">15742 ms</span>
+                <span class="method-start">12946 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.AddToCart_001</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyAddCrt</span>
-                <span class="method-start">20248 ms</span>
+                <span class="method-start">15746 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.AddToCart_002</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addCasualDrs</span>
-                <span class="method-start">30860 ms</span>
+                <span class="method-start">25493 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -493,7 +503,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyChkoutSuccess</span>
-                <span class="method-start">40149 ms</span>
+                <span class="method-start">32802 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -502,14 +512,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">addSmrDrs</span>
-                <span class="method-start">70960 ms</span>
+                <span class="method-start">63400 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.ContactUs_001</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">84753 ms</span>
+                <span class="method-start">77467 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

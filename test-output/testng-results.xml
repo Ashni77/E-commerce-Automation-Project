@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="3" ignored="6" total="13" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="79978" started-at="2022-05-05T02:10:26Z" finished-at="2022-05-05T02:11:46Z">
+  <suite name="Suite" duration-ms="73560" started-at="2022-05-07T13:54:34Z" finished-at="2022-05-07T13:55:48Z">
     <groups>
     </groups>
-    <test name="Regression Test" duration-ms="79978" started-at="2022-05-05T02:10:26Z" finished-at="2022-05-05T02:11:46Z">
+    <test name="Regression Test" duration-ms="73560" started-at="2022-05-07T13:54:34Z" finished-at="2022-05-07T13:55:48Z">
       <class name="testCases.AddToCart_002">
-        <test-method status="PASS" signature="addCasualDrs()[pri:1, instance:testCases.AddToCart_002@77e4c80f]" name="addCasualDrs" duration-ms="9125" started-at="2022-05-04T22:10:52Z" description="Verify if printed dress is added" finished-at="2022-05-04T22:11:01Z">
+        <test-method status="PASS" signature="addCasualDrs()[pri:1, instance:testCases.AddToCart_002@77e4c80f]" name="addCasualDrs" duration-ms="7207" started-at="2022-05-07T09:54:56Z" description="Verify if printed dress is added" finished-at="2022-05-07T09:55:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCasualDrs -->
-        <test-method status="FAIL" signature="addSmrDrs()[pri:2, instance:testCases.AddToCart_002@77e4c80f]" name="addSmrDrs" duration-ms="13128" started-at="2022-05-04T22:11:32Z" description="Verify if summer dress is added" finished-at="2022-05-04T22:11:45Z">
+        <test-method status="FAIL" signature="addSmrDrs()[pri:2, instance:testCases.AddToCart_002@77e4c80f]" name="addSmrDrs" duration-ms="13589" started-at="2022-05-07T09:55:34Z" description="Verify if summer dress is added" finished-at="2022-05-07T09:55:47Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Your shopping cart contains: 3 Products] but found [Your shopping cart contains: 5 Products]]]>
@@ -58,36 +58,36 @@
         </test-method> <!-- addSmrDrs -->
       </class> <!-- testCases.AddToCart_002 -->
       <class name="testCases.AddToCart_001">
-        <test-method status="PASS" signature="verifyAddCrt()[pri:1, instance:testCases.AddToCart_001@351d0846]" name="verifyAddCrt" duration-ms="10529" started-at="2022-05-04T22:10:41Z" finished-at="2022-05-04T22:10:52Z">
+        <test-method status="PASS" signature="verifyAddCrt()[pri:1, instance:testCases.AddToCart_001@351d0846]" name="verifyAddCrt" duration-ms="9717" started-at="2022-05-07T09:54:46Z" description="Verify tshirts added to cart" finished-at="2022-05-07T09:54:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddCrt -->
-        <test-method status="FAIL" signature="verifyChkoutSuccess()[pri:2, instance:testCases.AddToCart_001@351d0846]" name="verifyChkoutSuccess" duration-ms="30060" started-at="2022-05-04T22:11:01Z" depends-on-methods="testCases.AddToCart_001.verifyAddCrt" finished-at="2022-05-04T22:11:31Z">
+        <test-method status="FAIL" signature="verifyChkoutSuccess()[pri:2, instance:testCases.AddToCart_001@351d0846]" name="verifyChkoutSuccess" duration-ms="30074" started-at="2022-05-07T09:55:03Z" description="Verify successful checkout" depends-on-methods="testCases.AddToCart_001.verifyAddCrt" finished-at="2022-05-07T09:55:33Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"email"}
   (Session info: chrome=101.0.4951.54)
   (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.05 seconds
+Command duration or timeout: 30.07 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'TABLET-94I7MRL4', ip: '192.168.2.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55396}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir12044_625018404}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: f230d719bae3bb07220429ab244be7f0
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62165}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir2304_997987500}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: e6c5a3b912b1c22522c357d22f4e5f0f
 *** Element info: {Using=id, value=email}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"email"}
   (Session info: chrome=101.0.4951.54)
   (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.05 seconds
+Command duration or timeout: 30.07 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'TABLET-94I7MRL4', ip: '192.168.2.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55396}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir12044_625018404}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: f230d719bae3bb07220429ab244be7f0
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62165}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\Ashni\AppData\Local\Temp\scoped_dir2304_997987500}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=101.0.4951.54, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: e6c5a3b912b1c22522c357d22f4e5f0f
 *** Element info: {Using=id, value=email}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -138,7 +138,7 @@ Session ID: f230d719bae3bb07220429ab244be7f0
         </test-method> <!-- verifyChkoutSuccess -->
       </class> <!-- testCases.AddToCart_001 -->
       <class name="testCases.ChangePassword_001">
-        <test-method status="FAIL" signature="navigateToIdentityPage()[pri:1, instance:testCases.ChangePassword_001@4450d156]" name="navigateToIdentityPage" duration-ms="3748" started-at="2022-05-04T22:10:37Z" finished-at="2022-05-04T22:10:41Z">
+        <test-method status="FAIL" signature="navigateToIdentityPage()[pri:1, instance:testCases.ChangePassword_001@4450d156]" name="navigateToIdentityPage" duration-ms="2266" started-at="2022-05-07T09:54:43Z" description="Verify successful navigation to identity page" finished-at="2022-05-07T09:54:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My account - My Store] but found [Login - My Store]]]>
@@ -183,13 +183,13 @@ Session ID: f230d719bae3bb07220429ab244be7f0
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToIdentityPage -->
-        <test-method status="SKIP" signature="verifyIdentity()[pri:2, instance:testCases.ChangePassword_001@4450d156]" name="verifyIdentity" duration-ms="0" started-at="2022-05-04T22:11:01Z" depends-on-methods="testCases.ChangePassword_001.navigateToIdentityPage" finished-at="2022-05-04T22:11:01Z">
+        <test-method status="SKIP" signature="verifyChangePwd()[pri:2, instance:testCases.ChangePassword_001@4450d156]" name="verifyChangePwd" duration-ms="0" started-at="2022-05-07T09:55:03Z" description="Verify password changed successfully" depends-on-methods="testCases.ChangePassword_001.navigateToIdentityPage" finished-at="2022-05-07T09:55:03Z">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method ChangePassword_001.verifyIdentity()[pri:2, instance:testCases.ChangePassword_001@4450d156] depends on not successfully finished methods]]>
+              <![CDATA[Method ChangePassword_001.verifyChangePwd()[pri:2, instance:testCases.ChangePassword_001@4450d156] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ChangePassword_001.verifyIdentity()[pri:2, instance:testCases.ChangePassword_001@4450d156] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method ChangePassword_001.verifyChangePwd()[pri:2, instance:testCases.ChangePassword_001@4450d156] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -213,18 +213,18 @@ Session ID: f230d719bae3bb07220429ab244be7f0
           </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIdentity -->
+        </test-method> <!-- verifyChangePwd -->
       </class> <!-- testCases.ChangePassword_001 -->
       <class name="testCases.ContactUs_001">
-        <test-method status="PASS" signature="init()[pri:0, instance:testCases.ContactUs_001@58134517]" name="init" is-config="true" duration-ms="4716" started-at="2022-05-04T22:10:21Z" finished-at="2022-05-04T22:10:26Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.ContactUs_001@58134517]" name="init" is-config="true" duration-ms="3861" started-at="2022-05-07T09:54:30Z" finished-at="2022-05-07T09:54:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyContactPage()[pri:0, instance:testCases.ContactUs_001@58134517]" name="verifyContactPage" duration-ms="10348" started-at="2022-05-04T22:10:26Z" finished-at="2022-05-04T22:10:36Z">
+        <test-method status="PASS" signature="verifyContactPage()[pri:0, instance:testCases.ContactUs_001@58134517]" name="verifyContactPage" duration-ms="8688" started-at="2022-05-07T09:54:34Z" description="Verify functionality of contact us page" finished-at="2022-05-07T09:54:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.ContactUs_001@58134517]" name="tearDown" is-config="true" duration-ms="1079" started-at="2022-05-04T22:11:46Z" finished-at="2022-05-04T22:11:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.ContactUs_001@58134517]" name="tearDown" is-config="true" duration-ms="992" started-at="2022-05-07T09:55:48Z" finished-at="2022-05-07T09:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

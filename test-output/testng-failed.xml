@@ -15,9 +15,9 @@
       </class> <!-- testCases.AddToCart_002 -->
       <class name="testCases.ChangePassword_001">
         <methods>
-          <include name="verifyIdentity"/>
           <include name="navigateToIdentityPage"/>
           <include name="tearDown"/>
+          <include name="verifyChangePwd"/>
           <include name="init"/>
         </methods>
       </class> <!-- testCases.ChangePassword_001 -->
