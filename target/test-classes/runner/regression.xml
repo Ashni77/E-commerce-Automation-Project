@@ -10,7 +10,7 @@
   <test thread-count="4" name="Regression Test">
     <classes>
     	<class name = "testCases.ContactUs_001"/>
-    	<class name = "testCases.ChangePassword_001"/>
+    	
       <class name="testCases.AddToCart_001"/>
       <class name="testCases.AddToCart_002"/>
     </classes>
